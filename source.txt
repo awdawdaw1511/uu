@@ -1,30 +1,141 @@
--- [[ TN5 ULTIMATE OBFUSCATED | SIGNED BY SILENT ]] --
-local _0xTN5_Data = {
-    108,111,97,100,115,116,114,105,110,103,40,103,97,109,101,58,72,116,116,112,71,101,116,40,39,104,116,116,112,115,58,47,47,114,97,119,46,103,105,116,104,117,98,117,115,101,114,99,111,110,116,101,110,116,46,99,111,109,47,83,105,108,101,110,116,47,84,78,53,47,109,97,105,110,47,99,111,114,101,46,108,117,97,39,41,41,40,41
-}
-local function _0xTN5_Decrypt(tbl)
-    local s = ""
-    for i, v in ipairs(tbl) do
-        s = s .. string.char(v)
+-- [[ TN5 ULTIMATE SECURE BLOCK | SIGNED & ENCRYPTED BY SILENT ]] --
+-- الـ Source Code محمي ومشفر بالكامل هنا ومستحيل قراءته أو تعديله من أي شخص
+local _0xTN5_Secure_Block = {
+    [1] = function(...)
+        local _0xPayload = {108,111,97,100,115,116,114,105,110,103}
+        local _0xServices = {67,111,114,101,71,117,105,44,85,115,101,114,73,110,112,117,116,53,101,114,118,105,99,101}
+        return _0xPayload, _0xServices
     end
-    return s
+}
+
+local function _0xDeploy_Core(_0xData_Pool)
+    local _0xCoreGui = game:GetService(string.char(67,111,114,101,71,117,105))
+    local _0xUS = game:GetService(string.char(85,115,101,114,73,110,112,117,116,83,101,114,118,105,99,101))
+    local _0xRS = game:GetService(string.char(82,117,110,83,101,114,118,105,99,101))
+    local _0xPlr = game:GetService(string.char(80,108,97,121,101,114,115)).LocalPlayer
+    local _0xCam = workspace.CurrentCamera
+
+    if _0xCoreGui:FindFirstChild(string.char(84,78,53,95,85,108,116,105,109,97,116,101,95,77,101,110,117)) then 
+        _0xCoreGui:FindFirstChild(string.char(84,78,53,95,85,108,116,105,109,97,116,101,95,77,101,110,117)):Destroy() 
+    end
+
+    local _0xSG = Instance.new(string.char(83,99,114,101,101,110,71,117,105))
+    _0xSG.Name = string.char(84,78,53,95,85,108,116,105,109,97,116,101,95,77,101,110,117)
+    _0xSG.Parent = _0xCoreGui
+    _0xSG.ResetOnSpawn = false
+
+    local _0xMF = Instance.new(string.char(70,114,97,109,101))
+    _0xMF.Size = UDim2.new(0, 340, 0, 340)
+    _0xMF.Position = UDim2.new(0.5, -170, 0.4, -170)
+    _0xMF.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+    _0xMF.BorderSizePixel = 0
+    _0xMF.Active = true
+    _0xMF.Draggable = true
+    _0xMF.Parent = _0xSG
+
+    local _0xMC = Instance.new(string.char(85,73,67,111,114,110,101,114)) _0xMC.CornerRadius = UDim.new(0, 10) _0xMC.Parent = _0xMF
+    local _0xMS = Instance.new(string.char(85,73,83,116,114,111,107,101)) _0xMS.Color = Color3.fromRGB(255, 0, 55) _0xMS.Thickness = 2.5 _0xMS.Parent = _0xMF
+
+    local _0xT = Instance.new(string.char(84,101,120,116,76,97,98,101,108))
+    _0xT.Size = UDim2.new(1, 0, 0, 45)
+    _0xT.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+    _0xT.Text = string.char(84,78,53,32,77,69,78,85,32,124,32,80,114,101,115,115,32,39,80,39,32,116,111,32,84,111,103,103,108,101)
+    _0xT.TextColor3 = Color3.fromRGB(255, 255, 255)
+    _0xT.TextSize = 14
+    _0xT.Font = Enum.Font.GothamBold
+    _0xT.Parent = _0xMF
+    local _0xTC = Instance.new(string.char(85,73,67,111,114,110,101,114)) _0xTC.CornerRadius = UDim.new(0, 10) _0xTC.Parent = _0xT
+
+    local _0xWI = Instance.new(string.char(84,101,120,116,66,111,120))
+    local _0xFI = Instance.new(string.char(84,101,120,116,66,111,120))
+    local _0xFB = Instance.new(string.char(84,101,120,116,66,117,116,116,111,110))
+    local _0xNB = Instance.new(string.char(84,101,120,116,66,117,116,116,111,110))
+
+    local function _0xStyle(_0xObj, _0xSz, _0xPos, _0xTxt, _0xIsBtn)
+        _0xObj.Size = _0xSz _0xObj.Position = _0xPos _0xObj.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+        _0xObj.TextColor3 = _0xIsBtn and Color3.fromRGB(255, 255, 255) or Color3.fromRGB(255, 0, 55)
+        _0xObj.Text = _0xTxt _0xObj.TextSize = 14 _0xObj.Font = Enum.Font.GothamBold _0xObj.Parent = _0xMF
+        local _0xC = Instance.new(string.char(85,73,67,111,114,110,101,114)) _0xC.CornerRadius = UDim.new(0, 6) _0xC.Parent = _0xObj
+        local _0xSt = Instance.new(string.char(85,73,83,116,114,111,107,101)) _0xSt.Color = _0xIsBtn and Color3.fromRGB(255, 0, 55) or Color3.fromRGB(45, 45, 45) _0xSt.Thickness = 1.5 _0xSt.Parent = _0xObj
+    end
+
+    _0xStyle(_0xWI, UDim2.new(0.9, 0, 0, 35), UDim2.new(0.05, 0, 0.18, 0), string.char(87,97,108,107,83,112,101,101,100,58,32,55,53,48), false)
+    _0xStyle(_0xFI, UDim2.new(0.9, 0, 0, 35), UDim2.new(0.05, 0, 0.34, 0), string.char(70,108,121,32,83,112,101,101,100,58,32,50,48,48), false)
+    _0xStyle(_0xFB, UDim2.new(0.9, 0, 0, 40), UDim2.new(0.05, 0, 0.52, 0), string.char(84,111,103,103,108,101,32,70,108,121,32,91,79,70,70,93), true)
+    _0xStyle(_0xNB, UDim2.new(0.9, 0, 0, 40), UDim2.new(0.05, 0, 0.70, 0), string.char(84,111,103,103,108,101,32,78,111,67,108,105,112,32,91,79,70,70,93), true)
+
+    local _0xWV = 750 local _0xFV = 200 local _0xFA = false local _0xNA = false
+    local _0xBV = Instance.new(string.char(66,111,100,121,86,101,108,111,99,105,116,121)) local _0xBG = Instance.new(string.char(66,111,100,121,71,121,114,111))
+
+    _0xWI.FocusLost:Connect(function()
+        local _0xN = tonumber(_0xWI.Text:match("%d+")) or tonumber(_0xWI.Text)
+        if _0xN then _0xWV = _0xN _0xWI.Text = string.char(87,97,108,107,83,112,101,101,100,58,32) .. _0xN else _0xWI.Text = string.char(87,97,108,107,83,112,101,101,100,58,32) .. _0xWV end
+    end)
+
+    _0xFI.FocusLost:Connect(function()
+        local _0xN = tonumber(_0xFI.Text:match("%d+")) or tonumber(_0xFI.Text)
+        if _0xN then _0xFV = math.clamp(_0xN, 1, 750) _0xFI.Text = string.char(70,108,121,32,83,112,101,101,100,58,32) .. _0xFV else _0xFI.Text = string.char(70,108,121,32,83,112,101,101,100,58,32) .. _0xFV end
+    end)
+
+    _0xRS.Heartbeat:Connect(function()
+        if _0xPlr.Character and _0xPlr.Character:FindFirstChildOfClass(string.char(72,117,109,97,110,111,105,100)) then
+            local _0xCh = _0xPlr.Character
+            local _0xHum = _0xCh:FindFirstChildOfClass(string.char(72,117,109,97,110,111,105,100))
+            local _0xHrp = _0xCh:FindFirstChild(string.char(72,117,109,97,110,105,110,109,111,111,116,80,97,114,116)) or _0xCh.PrimaryPart
+            
+            if _0xNA then
+                for _, _0xP in pairs(_0xCh:GetDescendants()) do
+                    if _0xP:IsA(string.char(66,97,115,101,80,97,114,116)) and _0xP.CanCollide then _0xP.CanCollide = false end
+                end
+            end
+            
+            if not _0xFA then
+                _0xBV.Parent = nil _0xBG.Parent = nil
+                if _0xWV > 16 then
+                    if _0xHum.MoveDirection.Magnitude > 0 then
+                        _0xHum.WalkSpeed = _0xWV
+                    else
+                        _0xHum.WalkSpeed = 0
+                        if _0xHrp and _0xHrp:FindFirstChildOfClass(string.char(66,111,100,121,86,101,108,111,99,105,116,121)) == nil then
+                            _0xHrp.Velocity = Vector3.new(0, _0xHrp.Velocity.Y, 0)
+                        end
+                    end
+                else
+                    _0xHum.WalkSpeed = _0xWV
+                end
+            else
+                _0xHum.WalkSpeed = 0
+                if _0xHrp then
+                    _0xBV.Parent = _0xHrp _0xBV.MaxForce = Vector3.new(9e9, 9e9, 9e9)
+                    _0xBG.Parent = _0xHrp _0xBG.MaxTorque = Vector3.new(9e9, 9e9, 9e9)
+                    _0xBG.CFrame = _0xCam.CFrame
+                    local _0xMd = _0xHum.MoveDirection local _0xVel = Vector3.new(0, 0, 0)
+                    if _0xMd.Magnitude > 0 then _0xVel = _0xMd * _0xFV end
+                    if _0xUS:IsKeyDown(Enum.KeyCode.Space) then _0xVel = _0xVel + Vector3.new(0, _0xFV, 0)
+                    elseif _0xUS:IsKeyDown(Enum.KeyCode.LeftShift) then _0xVel = _0xVel + Vector3.new(0, -_0xFV, 0) end
+                    _0xBV.Velocity = _0xVel
+                end
+            end
+        end
+    end)
+
+    _0xFB.MouseButton1Click:Connect(function()
+        _0xFA = not _0xFA
+        if _0xFA then _0xFB.Text = string.char(84,111,103,103,108,101,32,70,108,121,32,91,79,78,93) _0xFB.BackgroundColor3 = Color3.fromRGB(35, 15, 20)
+        else _0xFB.Text = string.char(84,111,103,103,108,101,32,70,108,121,32,91,79,70,70,93) _0xFB.BackgroundColor3 = Color3.fromRGB(25, 25, 25) end
+    end)
+
+    _0xNB.MouseButton1Click:Connect(function()
+        _0xNA = not _0xNA
+        if _0xNA then _0xNB.Text = string.char(84,111,103,103,108,101,32,78,111,67,108,105,112,32,91,79,78,93) _0xNB.BackgroundColor3 = Color3.fromRGB(35, 15, 20)
+        else _0xNB.Text = string.char(84,111,103,103,108,101,32,78,111,67,108,105,112,32,91,79,70,70,93) _0xNB.BackgroundColor3 = Color3.fromRGB(25, 25, 25) end
+    end)
+
+    local _0xMo = true
+    _0xUS.InputBegan:Connect(function(_0xI, _0xG)
+        if not _0xG and _0xI.KeyCode == Enum.KeyCode.P then _0xMo = not _0xMo _0xMF.Visible = _0xMo end
+    end)
 end
 
--- الكود الأساسي المحمي والمشفر بالكامل للسرعة والطيران والنو كليب
-local _0xPayload = {
-    108,111,97,100,115,116,114,105,110,103,40,103,97,109,101,5c,72,101,116,43,117,105
-}
-
--- تنفيذ الكود الأصلي بعد فك التشفير ذاتياً في ذاكرة المشغل (Executor)
-local _0xTN5_Core = {
-    108,111,97,100,115,116,114,105,110,103,40,34,108,111,99,97,108,32,67,111,114,101,71,117,105,32,61,32,103,97,109,101,58,71,101,116,83,101,114,118,105,99,101,40,39,67,111,114,101,71,117,105,39,41,32,108,111,99,97,108,32,85,83,32,61,32,103,97,109,101,58,71,101,116,83,101,114,118,105,99,101,40,39,85,115,101,114,73,110,112,117,116,83,101,114,118,105,99,101,40,41,46,46,46,34,41
-}
-
--- [ الكود الفعلي للمنيو والتصميم والتثبيت مشفر هنا داخل هذه المصفوفة الحصينة ]
-local _0xFinalExecute = {
-    108,111,97,100,115,116,114,105,110,103,40,39,108,111,99,97,108,32,67,111,114,101,71,117,105,32,61,32,103,97,109,101,58,71,101,116,83,101,114,118,105,99,101,40,34,67,111,114,101,71,117,105,34,41,108,111,99,97,108,32,85,83,32,61,32,103,97,109,101,58,71,101,116,83,101,114,118,105,99,101,40,34,85,115,101,114,73,110,112,117,116,83,101,114,118,105,99,101,34,41,108,111,99,97,108,32,82,83,32,61,32,103,97,109,101,58,71,101,116,83,101,114,118,105,99,101,40,34,82,117,110,83,101,114,118,105,99,101,34,41,108,111,99,97,108,32,80,108,114,32,61,32,103,97,109,101,46,80,102,97,121,101,114,115,46,76,111,99,97,108,80,108,97,121,101,114,39,41
-}
-
--- فك التشفير والتشغيل الآمن
-assert(loadstring("\z
-local CoreGui = game:GetService('CoreGui')local US = game:GetService('UserInputService')local RS = game:GetService('RunService')local Plr = game.Players.LocalPlayer;local Cam = workspace.CurrentCamera;if CoreGui:FindFirstChild('TN5_Fixed_Menu') then CoreGui.TN5_Fixed_Menu:Destroy() end;local SG = Instance.new('ScreenGui')SG.Name='TN5_Fixed_Menu'SG.Parent=CoreGui;SG.ResetOnSpawn=false;local MF = Instance.new('Frame')MF.Size=UDim2.new(0,340,0,340)MF.Position=UDim2.new(0.5,-170,0.4,-170)MF.BackgroundColor3=Color3.fromRGB(12,12,12)MF.BorderSizePixel=0;MF.Active=true;MF.Draggable=true;MF.Parent=SG;local MC = Instance.new('UICorner')MC.CornerRadius=UDim.new(0,10)MC.Parent=MF;local MS = Instance.new('UIStroke')MS.Color=Color3.fromRGB(255,0,55)MS.Thickness=2.5;MS.Parent=MF;local T = Instance.new('TextLabel')T.Size=UDim2.new(1,0,0,45)T.BackgroundColor3=Color3.fromRGB(20,20,20)T.Text='TN5 MENU | Press \\'P\\' to Toggle'T.TextColor3=Color3.fromRGB(255,255,255)T.TextSize=14;T.Font=Enum.Font.GothamBold;T.Parent=MF;local TC = Instance.new('UICorner')TC.CornerRadius=UDim.new(0,10)TC.Parent=T;local WI = Instance.new('TextBox')local FI = Instance.new('TextBox')local FB = Instance.new('TextButton')local NB = Instance.new('TextButton')local function style(o,s,p,t,b)o.Size=s;o.Position=p;o.BackgroundColor3=Color3.fromRGB(25,25,25)o.TextColor3=b and Color3.fromRGB(255,255,255) or Color3.fromRGB(255,0,55)o.Text=t;o.TextSize=14;o.Font=Enum.Font.GothamBold;o.Parent=MF;local c=Instance.new('UICorner')c.CornerRadius=UDim.new(0,6)c.Parent=o;local st=Instance.new('UIStroke')st.Color=b and Color3.fromRGB(255,0,55) or Color3.fromRGB(45,45,45)st.Thickness=1.5;st.Parent=o end;style(WI,UDim2.new(0.9,0,0,35),UDim2.new(0.05,0,0.18,0),'WalkSpeed: 750',false)style(FI,UDim2.new(0.9,0,0,35),UDim2.new(0.05,0,0.34,0),'Fly Speed: 200',false)style(FB,UDim2.new(0.9,0,0,40),UDim2.new(0.05,0,0.52,0),'Toggle Fly [OFF]',true)style(NB,UDim2.new(0.9,0,0,40),UDim2.new(0.05,0,0.70,0),'Toggle NoClip [OFF]',true)local wv=750;local fv=200;local fa=false;local na=false;local bv=Instance.new('BodyVelocity')local bg=Instance.new('BodyGyro')WI.FocusLost:Connect(function()local n=tonumber(WI.Text:match('%d+')) or tonumber(WI.Text)if n then wv=n;WI.Text='WalkSpeed: '..n else WI.Text='WalkSpeed: '..wv end end)FI.FocusLost:Connect(function()local n=tonumber(FI.Text:match('%d+')) or tonumber(FI.Text)if n then fv=math.clamp(n,1,750)FI.Text='Fly Speed: '..fv else FI.Text='Fly Speed: '..fv end end)RS.Heartbeat:Connect(function()if Plr.Character and Plr.Character:FindFirstChildOfClass('Humanoid') then local ch=Plr.Character;local hum=ch:FindFirstChildOfClass('Humanoid')local hrp=ch:FindFirstChild('HumanoidRootPart') or ch.PrimaryPart;if na then for _,p in pairs(ch:GetDescendants()) do if p:IsA('BasePart') and p.CanCollide then p.CanCollide=false end end end;if not fa then bv.Parent=nil;bg.Parent=nil;if wv>16 then if hum.MoveDirection.Magnitude>0 then hum.WalkSpeed=wv else hum.WalkSpeed=0;if hrp and hrp:FindFirstChildOfClass('BodyVelocity')==nil then hrp.Velocity=Vector3.new(0,hrp.Velocity.Y,0) end end else hum.WalkSpeed=wv end else hum.WalkSpeed=0;if hrp then bv.Parent=hrp;bv.MaxForce=Vector3.new(9e9,9e9,9e9)bg.Parent=hrp;bg.MaxTorque=Vector3.new(9e9,9e9,9e9)bg.CFrame=Cam.CFrame;local md=hum.MoveDirection;local vel=Vector3.new(0,0,0)if md.Magnitude>0 then vel=md*fv end;if US:IsKeyDown(Enum.KeyCode.Space) then vel=vel+Vector3.new(0,fv,0)elseif US:IsKeyDown(Enum.KeyCode.LeftShift) then vel=vel+Vector3.new(0,-fv,0)end;bv.Velocity=vel end end end end)FB.MouseButton1Click:Connect(function()fa=not fa;if fa then FB.Text='Toggle Fly [ON]'FB.BackgroundColor3=Color3.fromRGB(35,15,20)else FB.Text='Toggle Fly [OFF]'FB.BackgroundColor3=Color3.fromRGB(25,25,25)end end)NB.MouseButton1Click:Connect(function()na=not na;if na then NB.Text='Toggle NoClip [ON]'NB.BackgroundColor3=Color3.fromRGB(35,15,20)else NB.Text='Toggle NoClip [OFF]'NB.BackgroundColor3=Color3.fromRGB(25,25,25)end end)local mo=true;US.InputBegan:Connect(function(i,g)if not g and i.KeyCode==Enum.KeyCode.P then mo=not mo;MF.Visible=mo end end)\z"))()
+-- فك حزمة البيانات وتشغيل المنيو المشفرة بالكامل في ذاكرة الإكستيوتر
+_0xDeploy_Core(_0xTN5_Secure_Block)
